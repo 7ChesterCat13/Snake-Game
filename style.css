@@ -5,11 +5,11 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Changa', sans-serif;
-  background-color: #020c16;
+  background-color: #000000;
 }
 
 :root {
-  --blue-1: #002bbf;
+  --green-1: #135e00;
   --black: #000000;
 }
 
@@ -55,15 +55,15 @@ body {
   z-index: -1;
   background: conic-gradient(
     from var(--gradient-angle),
-    var(--blue-1),
+    var(--green-1),
     var(--black),
-    var(--blue-1),
+    var(--green-1),
     var(--black),
-    var(--blue-1),
+    var(--green-1),
     var(--black),
-    var(--blue-1),
+    var(--green-1),
     var(--black),
-    var(--blue-1)
+    var(--green-1)
   );
   border-radius: inherit;
   animation: rotation 20s linear infinite;
@@ -75,7 +75,7 @@ body {
 
 /* Game Border 2*/
 .game-border-2 {
-  border: hsl(223.03deg 88.76% 26.15% / 84%) solid 30px;
+  border: hsl(145.45deg 88.76% 8.29% / 88%) solid 30px;
   border-radius: 26px;
   box-shadow: ridge 0 0 0 5px hsla(199, 89%, 18%, 0.575);
   aspect-ratio: 1/1;
@@ -84,7 +84,7 @@ body {
 
 /* Game Border 3*/
 .game-border-3 {
-  border: hsl(227, 100%, 4%) solid 15px;
+  border: hsl(89.61deg 89.46% 24.88% / 53%) solid 25px;
   border-radius: 100px;
   aspect-ratio: 1/1;
   position: relative;
