@@ -75,7 +75,7 @@ body {
 
 /* Game Border 2*/
 .game-border-2 {
-  border: hsl(227, 100%, 4%) inset 30px;
+  border: hsl(223.03deg 88.76% 26.15% / 84%) solid 30px;
   border-radius: 26px;
   box-shadow: ridge 0 0 0 5px hsla(199, 89%, 18%, 0.575);
   aspect-ratio: 1/1;
